@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div id="timer">00:00</div>
+    <label>Минуты: <input type="number" min="0"></label>
+    <label>Секунды: <input type="number" min="0" max="59"></label>
+    <button onclick="start()">Старт</button>
+    <button onclick="pause()">Пауза</button>
+    <button onclick="reset()">Сброс</button>
+    <audio id="alarm" src="electronic-alarm-signal.mp3" preload="auto"></audio>
+    <script src="timer.js"></script>
+</body>
+
+</html>
